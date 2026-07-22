@@ -149,9 +149,9 @@
         adaptiveHeight: true,
         cssEase: "linear",
         prevArrow:
-          '<button class="slide-arrow prev-arrow"><i class="feather-arrow-left"></i></button>',
+          '<button class="slide-arrow prev-arrow"><i >&#8592;</i></button>',
         nextArrow:
-          '<button class="slide-arrow next-arrow"><i class="feather-arrow-right"></i></button>',
+          '<button class="slide-arrow next-arrow"><i >&#8594;</i></button>',
       });
 
       $(".testimonial-item-one").slick({
@@ -185,9 +185,9 @@
         cssEase: "linear",
         adaptiveHeight: true,
         prevArrow:
-          '<button class="slide-arrow prev-arrow"><i class="feather-arrow-left"></i></button>',
+          '<button class="slide-arrow prev-arrow"><i >&#8592;</i></button>',
         nextArrow:
-          '<button class="slide-arrow next-arrow"><i class="feather-arrow-right"></i></button>',
+          '<button class="slide-arrow next-arrow"><i></i></button>',
         responsive: [
           {
             breakpoint: 1124,
